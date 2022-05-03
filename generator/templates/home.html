@@ -1,5 +1,6 @@
+{% extends 'layout.html' %}
 
-
+{% block content %}
 <form action={% url 'password' %}>
 
     <h1>Password Generator</h1>
@@ -27,3 +28,4 @@
     
     <button>Generate Password</button>
 </form>
+{% endblock %}
